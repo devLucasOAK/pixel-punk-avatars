@@ -2,7 +2,7 @@ from avatar_generator import AvatarGenerator
 
 
 def generate_avatar():
-    generator = AvatarGenerator("./images")
+    generator = AvatarGenerator("./collections/crypto_punk")
     generator.generate_avatar(100)
 
 
